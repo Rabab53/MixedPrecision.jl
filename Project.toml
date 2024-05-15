@@ -1,0 +1,13 @@
+name = "MixedPrecision"
+uuid = "f5823314-3e5f-46e2-9045-d60867c5f16a"
+authors = ["Rabab Alomairy"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
